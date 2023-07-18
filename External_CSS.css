@@ -1,11 +1,32 @@
 
 p {
-    font-weight: bold;
+
     color: rgba(119, 0, 255, 0.685);
     font-size: 50px;
 }
 h1 {
+
+    color: red;
+    font-size: 100px;
+}
+
+.blue {
+    color: #0000FF;
+}
+
+.bold {
     font-weight: bold;
-    color: green;
-    font-size: 10px;
+    
+}
+
+p{
+    text-decoration: underline;                <!--- used for underlining --->
+} 
+
+p{
+    text-decoration: overline;               <!--- used for lining over the text --->
+}
+
+p{
+    text-decoration: line-through;              <!--- used for cutting through a line --->
 }
