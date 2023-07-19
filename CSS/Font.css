@@ -1,0 +1,17 @@
+p{
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    
+    line-height: 1.5;
+    color: #0080ff;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    text-justify: inter-word;
+    text-transform: lowercase;
+
+    line-height: 100%;
+
+}
