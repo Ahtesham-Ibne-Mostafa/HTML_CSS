@@ -20,13 +20,12 @@ h1 {
 }
 
 p{
-    text-decoration: underline;                <!--- used for underlining --->
-} 
+    text-decoration: underline;                /* 1. underline */
 
 p{
-    text-decoration: overline;               <!--- used for lining over the text --->
+    text-decoration: overline;               /* 1. overline */
 }
 
 p{
-    text-decoration: line-through;              <!--- used for cutting through a line --->
+    text-decoration: line-through;              /* 1. cut thr line */
 }
