@@ -1,0 +1,24 @@
+.padding{
+    width: 500px;
+    height: 100px;
+    background-color: green;
+    color: white; 
+    padding: 50px 20px 3px 4px
+}
+
+.margin{
+    width: 500px;
+    height: 100px;
+    margin-top: 100px;
+    background-color: rgb(255, 123, 0);
+    color: rgb(255, 255, 255); 
+    
+}
+/* can be used as ( element > p ) then the only childs will get it. else both child and grand child will get it. */
+#element p{                  
+    color:red;
+    border: 50px solid greenyellow;
+    width: 500px;
+    height: 300px;
+    overflow : scroll;
+}
