@@ -3,7 +3,8 @@
     height: 100px;
     background-color: green;
     color: white; 
-    padding: 50px 20px 3px 4px
+    padding: 50px 20px 3px 4px;
+    float : right;                                       /* float: left, right, none; */
 }
 
 .margin{
@@ -12,7 +13,7 @@
     margin-top: 100px;
     background-color: rgb(255, 123, 0);
     color: rgb(255, 255, 255); 
-    
+    float : left;                                       /* float: left, right, none; */
 }
 /* can be used as ( element > p ) then the only childs will get it. else both child and grand child will get it. */
 #element p{                  
@@ -22,3 +23,10 @@
     height: 300px;
     overflow : scroll;
 }
+
+#wrapper span{
+    color: rgb(255, 255, 255); 
+    background-color: rgb(255, 0, 0);
+    display: block;                                     /* display: inline, block, none; */
+}
+
